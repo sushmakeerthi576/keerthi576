@@ -1,29 +1,18 @@
-# keerthi576
-class ssk
-{
-public void show()
-{
-	System.out.println("hii");
-	}
+import java.io.*;
+import java.util.*;
 
-public void show(int i)
-{
-	System.out.println("bye");
-	}
-public void show(int k,int j)
-{
-	System.out.println("keerthi");
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+String myString = scanner.next();
+long myLong = scanner.nextLong();        
+int myInt = scanner.nextInt(); 
+scanner.close();
+
+System.out.println(myString);
+System.out.println(myLong);
+System.out.println(myInt);
+
+    }
 }
-}
-public class mthdoload {
-
-	public static void main(String[] args) {
-		ssk obj=new ssk();
-		obj.show();
-		obj.show(2);
-		obj.show(2,4);
-
-	}
-
-}
-
